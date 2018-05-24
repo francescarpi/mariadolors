@@ -10,7 +10,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 FTP_HOST=mariadolors.cat
 FTP_USER=mariadol
-FTP_TARGET_DIR=/
+FTP_TARGET_DIR=/web
 
 SSH_HOST=localhost
 SSH_PORT=22
