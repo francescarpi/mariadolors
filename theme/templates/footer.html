@@ -1,0 +1,4 @@
+<footer class="container">
+  <p class="float-right"><a href="javascript:$(window).scrollTop(0);">Volar cap amunt!</a></p>
+  <p>© Maria Dolors · {% for name, link in SOCIAL %}<a href="{{ link }}" rel="nofollow" target="_blank">{{ name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+</footer>

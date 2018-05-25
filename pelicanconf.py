@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = 'Francesc Arpí Roca'
 SITENAME = 'Maria Dolors'
@@ -26,8 +27,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/mariadolorslloret/'),
+          ('Instagram', 'https://www.instagram.com/mariadolorslloret/'),
+          ('Youtube', 'https://www.youtube.com/channel/UCReh9lLc9peY9hJSuNQoJnw'))
 
 DEFAULT_PAGINATION = False
 
@@ -35,3 +37,7 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = './theme'
+
+PLUGIN_PATHS = ['plugins', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'plugins')]
+PLUGINS = ['tables', 'letters']
+GOOGLE_ANALYTICS = 'UA-119906115-1'
