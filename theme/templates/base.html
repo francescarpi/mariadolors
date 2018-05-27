@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{{ title }}</title>
-        <link rel="shortcut icon" href="/theme/imgs/favicon.ico">
-        <link rel="stylesheet" href="/theme/css/bootstrap.css">
-        <link rel="stylesheet" href="/theme/css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <h1>María Dolors</h1>
-                <img src="/theme/imgs/band.jpg" alt="María Dolors">
-            </header>
-            <main>
-                {% block content %}{% endblock %}
-            </main>
-            <footer>
-
-            </footer>
-        </div>
-        <script type="text/javascript" src="/theme/js/jquery-3.0.0.min.js"></script>
-        <script type="text/javascript" src="/theme/js/bootstrap.js"></script>
-    </body>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Francesc Arpí Roca">
+    <link rel="shortcut icon" href="/theme/imgs/favicon.ico">
+    <link rel="stylesheet" href="/theme/css/bootstrap.css">
+    <link rel="stylesheet" href="/theme/css/carousel.css">
+    <link rel="stylesheet" href="/theme/css/style.css">
+    {% include 'include/analytics.html' %}
+</head>
+<body>
+{% include "header.html" %}
+<main role="main">{% block content %}{% endblock %}</main>
+{% include "footer.html" %}
+<script type="text/javascript" src="/theme/js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="/theme/js/bootstrap.js"></script>
+</body>
 </html>

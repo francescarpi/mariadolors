@@ -1,2 +1,3 @@
-pelican
-markdown
+pelican==3.7.1
+Markdown==2.6.11
+beautifulsoup4==4.6.0

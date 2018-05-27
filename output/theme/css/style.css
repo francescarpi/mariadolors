@@ -1,4 +1,18 @@
 body { background: #000; color: #fff; }
-header { text-align: center; padding: 2em; }
-header h1 { display: block; margin-bottom: 1em; }
-header img { width: 50%; border: 5px #fff solid; }
+header nav { background-color: #ffc9c9; }
+.navbar-dark .navbar-nav .nav-link { color: #000; }
+.navbar-dark .navbar-nav .nav-link:hover { color: #000; }
+.navbar-dark .navbar-brand { color: #000; }
+.navbar-dark .navbar-brand span:first-child { font-weight: bolder; color: #fff; }
+.navbar-dark .navbar-brand span:last-child { font-weight: bolder; color: #fff; }
+.navbar-dark .navbar-brand:hover { color: #000; }
+.carousel-caption { background: rgba(0, 0, 0, 0.8); padding: 2em; }
+.basePage { margin-top: 58px; }
+.basePage .header { width: 100%; margin-bottom: 2em; }
+.basePage table {width: 100%}
+.card { color: #dee2e6; border-radius: 0; background: rgba(255, 255, 255, 0.2); }
+.card-text p {margin-bottom: 0;}
+.card-text p.break {margin-bottom: 1em;}
+footer { margin-top: 5em; }
+footer a { color: #ffc9c9; }
+.table a { color: #ffc9c9; }
