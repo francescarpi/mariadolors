@@ -3,8 +3,8 @@ slug: lletres
 
 # Lletres
 
-Una de les coses que més il·lusió ens fa és que canteu amb nosaltres, però per a poder-ho fer, us hem de posar
-una mica de deures (no gaires). Així que aquí teniu les nostres esbojerrades lletres:
+Una de les coses que més il·lusió ens fa és que canteu amb nosaltres.
+Així que us posem una mica de deures (no gaires). Aquí teniu les nostres esbojerrades lletres:
 
 <div class="letter" title="Carnaval">
 Una rosa engabiada,
