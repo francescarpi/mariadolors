@@ -16,3 +16,4 @@ header nav { background-color: #ffc9c9; }
 footer { margin-top: 5em; }
 footer a { color: #ffc9c9; }
 .table a { color: #ffc9c9; }
+.navbar-dark .navbar-toggler { color: #000; border-color: #000; }
