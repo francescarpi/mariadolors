@@ -8,7 +8,7 @@ dels nostres concerts.
 
 | Dia | Hora | Lloc |  |
 |-----|------|------|--------------|
-| 23/07/2018 | 22:00 | Roca d'en Maig (Lloret de Mar) | Festa Major |
+| 23/07/2018 | 22:30 | Roca d'en Maig (Lloret de Mar) | Festa Major |
 | 29/06/2018 | 21:40 | Sala Mirona (Girona) | <a href="http://www.lamirona.cat" rel="nofollow" target="_blank">http://www.lamirona.cat</a> |
 | 22/06/2018 | 20:30 | Plaça Pere Torrent, Lloret de Mar | Concert benèfic |
 | 25/05/2018 | 22:00 | c/De la Vila, Lloret de Mar |  |
